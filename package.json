@@ -1,0 +1,25 @@
+{
+  "name": "gambler",
+  "version": "0.1.0",
+  "description": "A module to shuffle a \"deck of cards\" and pick a random card from the shuffled deck",
+  "homepage": "https://github.com/jsumners/gambler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsumners/gambler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsumners/gambler/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "knuth shuffle", "shuffle"
+  ],
+  "author": "James Sumners",
+  "license": "MIT",
+  "dependencies": {
+    "sjcl": "^1.0.1"
+  }
+}
